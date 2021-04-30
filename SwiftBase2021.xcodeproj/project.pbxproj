@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612BAFED263B8E3B003B9A80 /* FuncClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612BAFEC263B8E3B003B9A80 /* FuncClass.swift */; };
 		61C7EB87263A743C002E0966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C7EB86263A743C002E0966 /* AppDelegate.swift */; };
 		61C7EB89263A743C002E0966 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C7EB88263A743C002E0966 /* SceneDelegate.swift */; };
 		61C7EB8B263A743C002E0966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C7EB8A263A743C002E0966 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		612BAFEC263B8E3B003B9A80 /* FuncClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncClass.swift; sourceTree = "<group>"; };
 		61C7EB83263A743C002E0966 /* SwiftBase2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBase2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C7EB86263A743C002E0966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61C7EB88263A743C002E0966 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				61C7EB85263A743C002E0966 /* SwiftBase2021 */,
-				61C7EB9C263A743D002E0966 /* SwiftBase2021Tests */,
 				61C7EBA7263A743D002E0966 /* SwiftBase2021UITests */,
 				61C7EB84263A743C002E0966 /* Products */,
 			);
@@ -101,11 +102,13 @@
 			children = (
 				61C7EB86263A743C002E0966 /* AppDelegate.swift */,
 				61C7EB88263A743C002E0966 /* SceneDelegate.swift */,
+				612BAFEC263B8E3B003B9A80 /* FuncClass.swift */,
 				61C7EB8A263A743C002E0966 /* ViewController.swift */,
 				61C7EB8C263A743C002E0966 /* Main.storyboard */,
 				61C7EB8F263A743C002E0966 /* Assets.xcassets */,
 				61C7EB91263A743C002E0966 /* LaunchScreen.storyboard */,
 				61C7EB94263A743C002E0966 /* Info.plist */,
+				61C7EB9C263A743D002E0966 /* SwiftBase2021Tests */,
 			);
 			path = SwiftBase2021;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612BAFED263B8E3B003B9A80 /* FuncClass.swift in Sources */,
 				61C7EB8B263A743C002E0966 /* ViewController.swift in Sources */,
 				61C7EB87263A743C002E0966 /* AppDelegate.swift in Sources */,
 				61C7EB89263A743C002E0966 /* SceneDelegate.swift in Sources */,

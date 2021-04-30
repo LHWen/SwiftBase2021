@@ -46,6 +46,11 @@ class ViewController: UIViewController {
         arrayFunc()
         // 字典
         dictionaryFunc()
+        
+        //-------- 函数 start ----------
+        print(returnStringFunc(site: "测试入参"))
+        let minMax = returnMinAndMax(array: [80, -6, 7, 35, 24, 90, 77])
+        print("最大值：\(minMax.max), 最小值：\(minMax.min)")
     }
 
     // 基本语法
@@ -154,7 +159,7 @@ class ViewController: UIViewController {
         var osStr: String! = nil
         print("自动解析结果：\(osStr)")  // 自动解析结果：nil
         // 定义属性为 nil 可以使用 ?? 给定默认值
-        print("自动解析使用 ?? 结果：\(osStr ?? "测试 ??")") // 自动解析使用 ?? 结果：测试 ??
+        print("自动解析使用 ?? 结果：\(osStr ?? "默认填充值")") // 自动解析使用 ?? 结果：默认填充值
         osStr = "已经赋值"
         print("自动解析使用 ?? 结果：\(osStr ?? "测试 ??")") // 自动解析使用 ?? 结果：已经赋值
         
